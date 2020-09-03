@@ -1,3 +1,23 @@
+/* Program that prints the given sequence
+ *
+ *  INPUT    OUTPUT
+ *   1         1
+ *
+ *   2         1
+ *   	       1 2
+ *
+ *   3         1
+ *   	       1 2
+ *   	       1 2 3
+ *
+ *   4		1
+ *   		1 2
+ *   		1 2 3
+ *
+ *   And so on..
+ *   
+ *
+ *  */
 #include <stdio.h>
 int f( int *n);
 int main()
