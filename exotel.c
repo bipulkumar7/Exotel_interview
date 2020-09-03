@@ -22,7 +22,7 @@
 int f( int *n);
 int main()
 {
- int n
+ int n;
      n = 4; // In case if you want user defined input please comment this  line and uncomment next two line from now
  //printf("Enter number\n");
 // scanf("%d, &n");
