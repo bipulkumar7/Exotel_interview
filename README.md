@@ -1,14 +1,18 @@
-STEP 1 : On teletype terminal put your given credential with export
+> STEP 1 : On teletype terminal put your given credential with export
 
+```
 	export AWS_ACCESS_KEY_ID= 
 	export AWS_SECRET_ACCESS_KEY=
+```
 
-STEP 2:
-
-
-
-STEP 3: terraform plan
+> STEP 2: Download the script 
   
+>      mkdir -p Terraform; cd Terraform;  wget https://raw.githubusercontent.com/bipulkumar7/Exotel_interview/master/main.tf ; 
+
+
+> STEP 3: terraform plan
+  
+```
 	Refreshing Terraform state in-memory prior to plan...
 	The refreshed state will be used to calculate this plan, but will not be
 	persisted to local or remote state storage.
@@ -118,9 +122,11 @@ STEP 3: terraform plan
 Plan: 3 to add, 0 to change, 0 to destroy.
 
 -----------------------------------------------------------------------
+```
 
-STEP 4: terraform apply
+> STEP 4: terraform apply
 
+```
     An execution plan has been generated and is shown below.
     Resource actions are indicated with the following symbols:
   + create
@@ -245,5 +251,6 @@ aws_autoscaling_group.example: Still creating... [50s elapsed]
 aws_autoscaling_group.example: Creation complete after 51s [id=tf-asg-20200903151916739600000002]
 
 Apply complete! Resources: 3 added, 0 changed, 0 destroyed.
+```
 
-Note: If your account is new and you have terminated your instances frequently then there might be chances of error of  Max Spot Instance count exceeded
+> Note: If your account is new and you have terminated your instances frequently then there might be chances of error of  Max Spot Instance count exceeded
