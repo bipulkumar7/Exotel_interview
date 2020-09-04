@@ -22,7 +22,7 @@ provider "aws" {
 
 resource "aws_launch_configuration" "example" {
   image_id        = "ami-0c55b159cbfafe1f0"
-  instance_type   = "t2.micro"
+  instance_type   = "t3a.micro"
   security_groups = ["${aws_security_group.instance.id}"]
   spot_price = "0.04500"
 
