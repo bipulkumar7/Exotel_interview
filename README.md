@@ -1,4 +1,4 @@
-> STEP 1 : On teletype terminal put your given credential with export
+> STEP 1 : On pts terminal put your given credential with export
 
 ```
 	export AWS_ACCESS_KEY_ID= 
