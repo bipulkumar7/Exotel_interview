@@ -53,7 +53,7 @@
       + enable_monitoring           = true
       + id                          = (known after apply)
       + image_id                    = "ami-0c55b159cbfafe1f0"
-      + instance_type               = "t2.micro"
+      + instance_type               = "t3a.micro"
       + key_name                    = (known after apply)
       + name                        = (known after apply)
       + security_groups             = (known after apply)
